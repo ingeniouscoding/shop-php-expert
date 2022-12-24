@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  display: block;
+}
+
+.hideme {
+  display: none;
+}
+
+.container {
+  display: flex;
+  padding: 0 20px;
+}
+
+.header {
+  height: 70px;
+  text-align: center;
+}
+
+.left-column {
+  width: 200px;
+}
+
+
+.left-menu,
+.login-box,
+.register-box {
+  padding-bottom: 20px;
+}
+
+.center-column {
+  width: 600px;
+  padding-left: 90px;
+}
+
+.menu-caption {
+  margin: 3 px;
+}
+
+.footer {
+  background: #eee;
+}
+
+.cart-box {
+  padding: 5px 0px;
+}
