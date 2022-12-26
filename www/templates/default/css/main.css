@@ -3,7 +3,13 @@ body {
   display: block;
 }
 
-.hideme {
+img {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.hide-me {
   display: none;
 }
 
@@ -17,10 +23,10 @@ body {
   text-align: center;
 }
 
-.left-column {
-  width: 200px;
+.header a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
-
 
 .left-menu,
 .login-box,
@@ -43,4 +49,19 @@ body {
 
 .cart-box {
   padding: 5px 0px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-auto-rows: 150px;
+  gap: 20px;
+}
+
+.product-item {
+  grid-column: span 1;
+}
+
+.product-price {
+  margin-top: 16px;
 }
