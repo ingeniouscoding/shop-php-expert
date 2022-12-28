@@ -12,5 +12,5 @@ function indexAction(Smarty $smarty): void
     $smarty->assign('categories', $categories);
     $smarty->assign('products', $products);
 
-    loadTemplate($smarty, 'index');
+    $smarty->display('index.tpl');
 }

@@ -8,11 +8,6 @@ function loadPage(Smarty $smarty, string $controllerName, string $actionName = '
     $action($smarty);
 }
 
-function loadTemplate(Smarty $smarty, string $templateName): void
-{
-    $smarty->display($templateName . TemplatePostfix);
-}
-
 function dd($value = null, bool $die = true): void
 {
     echo 'Debug <br /><pre>';

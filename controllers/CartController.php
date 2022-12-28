@@ -14,7 +14,7 @@ function indexAction(Smarty $smarty)
     $smarty->assign('categories', $categories);
     $smarty->assign('products', $products);
 
-    loadTemplate($smarty, 'cart');
+    $smarty->display('cart.tpl');
 }
 
 function addtocartAction(): void
