@@ -1,5 +1,7 @@
 {extends file="base.tpl"}
 
+{block name=title}Корзина{/block}
+
 {block name=content}
 
     <h1>Корзина</h1>

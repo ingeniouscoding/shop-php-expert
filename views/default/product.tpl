@@ -1,5 +1,7 @@
 {extends file="base.tpl"}
 
+{block name=title}Описание товара {$product['name']}{/block}
+
 {block name=content}
 
     <h3>{$product['name']}</h3>

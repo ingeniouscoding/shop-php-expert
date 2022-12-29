@@ -22,7 +22,6 @@ function indexAction(Smarty $smarty): void
 
     $categories = getAllCategories();
 
-    $smarty->assign('pageTitle', 'Товары категории ' . $category['name']);
     $smarty->assign('category', $category);
     $smarty->assign('categories', $categories);
     $smarty->assign('products', $products);

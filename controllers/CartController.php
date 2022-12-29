@@ -10,7 +10,6 @@ function indexAction(Smarty $smarty)
     $products = getProductsFromArray($itemIds);
     $categories = getAllCategories();
 
-    $smarty->assign('pageTitle', 'Корзина');
     $smarty->assign('categories', $categories);
     $smarty->assign('products', $products);
 

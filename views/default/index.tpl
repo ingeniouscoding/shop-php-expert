@@ -1,5 +1,7 @@
 {extends file="base.tpl"}
 
+{block name=title}Главная страница{/block}
+
 {block name=content}
 
     <div class="products">

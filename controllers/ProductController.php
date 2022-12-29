@@ -14,7 +14,6 @@ function indexAction(Smarty $smarty): void
     $categories = getAllCategories();
 
     $smarty->assign('inCart', in_array($id, $_SESSION['cart']));
-    $smarty->assign('pageTitle', 'Описание товара ' . $product['name']);
     $smarty->assign('categories', $categories);
     $smarty->assign('product', $product);
 

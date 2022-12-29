@@ -1,5 +1,7 @@
 {extends file="base.tpl"}
 
+{block name=title}Товары категории {$category['name']}{/block}
+
 {block name=content}
 
     <h1>Товары категории {$category['name']}</h1>

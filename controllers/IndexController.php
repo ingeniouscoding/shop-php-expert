@@ -8,7 +8,6 @@ function indexAction(Smarty $smarty): void
     $categories = getAllCategories();
     $products = getLastProducts(16);
 
-    $smarty->assign('pageTitle', 'Главная страница');
     $smarty->assign('categories', $categories);
     $smarty->assign('products', $products);
 
