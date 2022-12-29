@@ -34,13 +34,24 @@ img {
   padding-bottom: 20px;
 }
 
+.register-box>.menu-caption {
+
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.register-box>.menu-caption:hover {
+  background: #eee;
+}
+
 .center-column {
   width: 600px;
   padding-left: 90px;
 }
 
 .menu-caption {
-  margin: 3 px;
+  padding: 10px 0;
+  font-weight: bold;
 }
 
 .footer {
@@ -64,4 +75,9 @@ img {
 
 .product-price {
   margin-top: 16px;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
 }

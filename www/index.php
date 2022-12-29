@@ -16,6 +16,10 @@ $actionName = isset($_GET['action'])
     ? $_GET['action']
     : 'index';
 
+if (isset($_SESSION['user'])) {
+    $smarty->assign('user', $_SESSION['user']);
+}
+
 $smarty->assign('cartCountItems', count($_SESSION['cart']));
 
 loadPage($smarty, $controllerName, $actionName);

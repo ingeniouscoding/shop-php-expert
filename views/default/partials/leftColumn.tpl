@@ -18,14 +18,18 @@
         </ul>
     </div>
 
-    <div class="menu-catpion">Корзина</div>
-    <a href="/cart/">В корзине</a>
-    <span id="cartCountItems">
-        {if $cartCountItems > 0}
-            {$cartCountItems}
-        {else}
-            пусто
-        {/if}
-    </span>
+    {include file="partials/registration.tpl"}
+
+    <div>
+        <div class="menu-caption">Корзина</div>
+        <a href="/cart/">В корзине</a>
+        <span id="cartCountItems">
+            {if $cartCountItems > 0}
+                {$cartCountItems}
+            {else}
+                пусто
+            {/if}
+        </span>
+    </div>
 
 </div>

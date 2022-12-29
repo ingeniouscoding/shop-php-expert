@@ -18,3 +18,9 @@ function dd($value = null, bool $die = true): void
         die();
     }
 }
+
+function redirect(string $url = '/')
+{
+    header("Location: {$url}");
+    exit;
+}
